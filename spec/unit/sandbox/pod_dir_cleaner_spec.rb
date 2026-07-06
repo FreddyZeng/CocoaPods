@@ -20,8 +20,11 @@ module Pod
 
       paths_without_git.sort.should == %w(
         .git
+        .gitignore
         .gitmodules
         BananaLib.podspec
+        Classes/Documentation.docc
+        Classes/Documentation.docc/Documentation.md
         docs
         docs/guide1.md
         docs/subdir
